@@ -36,5 +36,3 @@ while True:
 	else:
 		print(' ')
 	main()
-	
-	    
