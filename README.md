@@ -10,3 +10,6 @@ AskGod is a GodSpeaks Clone (invented by terry davis, ported onto python by http
 
 This bot uses words from god (using his exact words from the bible) and turns your question into an answer using words that god would use (and have used.) 
 The bot uses words that god has used and uses words similar to those he has used. We get new words by using his tone of voice and observing his terminology and vocabulary.
+When we get new words we add them via text file which you can download safely using github. We are working to make a feature to get new words and implement them into the program.
+
+
