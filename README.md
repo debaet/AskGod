@@ -19,7 +19,7 @@ This bot uses words from god (using his exact words from the bible) and turns yo
 
 
 
-#Main
+# Main
 
 this project was inspired by terry Davis! this also would not be possible without (https://github.com/rethyxyz) I seen his code and he gave me the idea to do all this.
 
@@ -27,7 +27,7 @@ basically, I've added a few new things to it. it's still true to its original pu
 
 
 
-#What I've added:
+# What I've added:
 
 instead of just generating text I've added features such as giving an option to answer questions right off the bat. this is gonna be used for the bot to learn and use for future output. for example, one of the questions is "do you read the bible" it will start a conversation based on the answer given. this is not finished yet but I believe this will be the best part of the code. when I finish it. for now, if no specific questions are asked it just outputs random words made with God's words which I plan to fix later on.
 
