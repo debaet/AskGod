@@ -1,4 +1,10 @@
 import random
+import colorama
+from colorama import Fore, Back, Style
+import os
+import time 
+colorama.init()
+
 
 # these are just keywords please ignore these. do NOT delete this
 
@@ -154,6 +160,64 @@ def qna():
 
 
 
+
+def frontpage():
+	print(Fore.MAGENTA + """ _______________
+< Hello, world! Please wait.  >
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                
+                ||     ||""" + Style.RESET_ALL + Style.BRIGHT)
+	time.sleep(5)
+	os.system('cls' if os.name == 'nt' else 'clear')
+	print(Fore.MAGENTA + """ ______________________________
+< Welcome to AskGod. You will be Redirected to the Menu now.  >
+ ----------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (l_l)\       )\/\
+                
+                ||     ||""" + Style.RESET_ALL + Style.BRIGHT)
+	time.sleep(5)
+	os.system('cls' if os.name == 'nt' else 'clear')
+	print ('')
+	print ('################################')
+	print ('#  First God ChatBot  AskGod   #')
+	print ('#             v3.0             #')
+	print ('# ---------------------------- #')
+	print ('#  Written by debaet/w3lcs     #')
+	print ('#  github.com/debaet/AskGod    #')
+	print ('#                              #')
+	print ('################################\n')
+
+	print ('')
+	print ('################################')
+	print ('#        Selection Menu        #')
+	print ('#         Type a Number        #')
+	print ('# ---------------------------- #')
+	print ('#  1. Get New Words            #')
+	print ('#  2. Chatbot(beta)            #')
+	print ('#  3. Bible Verses             #')
+	print ('################################\n')
+
+	selection = input('Enter a Number: ')
+
+
+	if selection=="1":
+		#words()
+		print('sorry not done yet')
+
+
+	elif selection=="2":
+		qna()
+
+	elif selection=="3":
+		#bible()
+		print('sorry not done yet')
+
+
     
 def questions():
 	print('you made a great decision!')
@@ -167,7 +231,7 @@ def questions():
 	q5 = input('do you read the bible?')
 	q6 = input('do you feel safe?')
 	print('thank you for providing information to enhance your exprience!')
-	main()
+	frontpage()
 
 
 
@@ -186,10 +250,13 @@ print('in order to have the best exprience, you may need to answer some question
 variable = input('will you answer some questions to teach the bot about yourself? (y/n use lowercase only)')
 
 
+
+
+
 if variable=="y":
 	questions()
 else:
-	qna()
-
+	frontpage()
+	
 
 
