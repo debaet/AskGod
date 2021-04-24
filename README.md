@@ -18,6 +18,16 @@ When we get new words we add them via text file which you can download safely us
 This bot uses words from god (using his exact words from the bible) and turns your question into an answer using words that God would use (and have used.) The bot uses words that God has used and uses words similar to those he has used. We get new words by using his tone of voice and observing his terminology and vocabulary. When we get new words we add them via text file which you can download safely using Github. We are working to make a feature to get new words and implement them into the program."
 
 
+# Requirements
+modules used:
+random
+os
+colorama
+time
+
+i am trying as hard as possible to use as less modules as possible but the only one u may need to install is os and colorama.
+
+
 
 # Main
 
