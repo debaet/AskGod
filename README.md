@@ -3,6 +3,8 @@
 Currently, development has been slow, but i plan on recoding most of it because i know a way to clean the code up and make it more easier to work with.
 when the code  is done i will be putting it up on a websitte where everyone can use for free.
 
+5/14/21
+Officially changed code. This may be usuable in the next couple days!
 
 
 # About AskGod
